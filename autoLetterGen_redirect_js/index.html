@@ -17,26 +17,20 @@
           </p>
         </div>
 
-        <form method="get">
+        <form method="GET" action="redirect.html">
           Name:
-          <input type="text" id="name" />
+          <input type="text" id="name" name="name" />
           Email:
-          <input type="text" id="email" />
+          <input type="text" id="email" name="email" />
           Ph_no:
-          <input type="number" id="ph_no" />
+          <input type="number" id="ph_no" name="ph_no" />
           Domain:
-          <input type="text" id="domain" />
+          <input type="text" id="domain" name="domain" />
 
-          <input
-            type="button"
-            class="bttn_one"
-            onclick="coverLetter()"
-            value="Generate"
-          />
+          <input type="submit" class="bttn_one" value="Generate" />
         </form>
       </section>
     </main>
     <script src="html2canvas.min.js"></script>
-    <script src="script.js"></script>
   </body>
 </html>

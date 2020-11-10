@@ -31,8 +31,13 @@ form {
 }
 
 form input {
+  border-radius: 2rem;
+  height: 2rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
+  outline: none;
+  border-style: solid;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
 }
 
 .bttn_one {
@@ -48,21 +53,6 @@ form input {
 }
 
 .coverLetter {
-  font-size: 1.7rem;
-  margin: 3rem 58.5rem 3rem 58.5rem;
-  line-height: 2.6rem;
-}
-
-.header_right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.header_left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,9 +60,14 @@ form input {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  font-size: 1.7rem;
+  margin: 3rem 58.5rem 3rem 58.5rem;
+  line-height: 2.6rem;
+}
+
+.header_right {
+  float: right;
+  padding-left: 55rem;
 }
 
 .subj {
@@ -103,11 +98,11 @@ form input {
 .bttn_two {
   margin: 1rem;
   background-color: #5cb85c;
-  width: 15rem;
-  height: 2.5rem;
+  width: 14rem;
+  height: 4rem;
   color: white;
   font-size: 1.5rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   outline: none;
   border: none;
   cursor: pointer;
